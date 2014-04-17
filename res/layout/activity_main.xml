@@ -8,9 +8,72 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <TextView
+    <ImageView
+        android:id="@+id/imgfb_Login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/fb" />
+
+    <ImageView
+        android:id="@+id/imggplus_Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/imgfb_Login"
+        android:src="@drawable/gplus" />
+
+    <EditText
+        android:id="@+id/txtUsuario_Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgfb_Login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="Correo" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtPass_Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtUsuario_Login"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword" />
+
+    <ImageButton
+        android:id="@+id/btnIniciarSesion_Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtPass_Login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/btniniciarsesion" />
+
+    <TextView
+        android:id="@+id/txtregistrate_Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/txtUsuario_Login"
+        android:layout_below="@+id/btnIniciarSesion_Login"
+        android:layout_marginTop="10dp"
+        android:text="Registrate"
+        android:textColor="#0000CC" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtregistrate_Login"
+        android:src="@drawable/brujula" />
 
 </RelativeLayout>
