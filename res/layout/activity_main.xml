@@ -55,6 +55,7 @@
         android:layout_below="@id/txtPass_Login"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
+        android:onClick="IniciarSesion"
         android:src="@drawable/btniniciarsesion" />
 
     <TextView

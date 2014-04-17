@@ -22,7 +22,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="registro"></activity>
+        <activity android:name="arqui2.gye.movil.registro" >
+        </activity>
+        <activity
+            android:name="arqui2.gye.movil.MenuPrincipal"
+            android:label="@string/title_activity_menu_principal" >
+        </activity>
     </application>
 
 </manifest>
