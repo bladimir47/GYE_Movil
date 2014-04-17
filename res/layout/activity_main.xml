@@ -64,6 +64,7 @@
         android:layout_alignRight="@+id/txtUsuario_Login"
         android:layout_below="@+id/btnIniciarSesion_Login"
         android:layout_marginTop="10dp"
+        android:clickable="true"
         android:onClick="IrRegistro"
         android:text="Registrate"
         android:textColor="#0000CC" />
