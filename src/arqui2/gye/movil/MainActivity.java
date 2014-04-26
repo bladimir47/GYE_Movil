@@ -21,6 +21,7 @@ public class MainActivity extends Activity {
     	TextView txtuser = (TextView)findViewById(R.id.txtUsuario_Login);
     	TextView txtpass = (TextView)findViewById(R.id.txtPass_Login);
     	String usuario="",pass="";
+    	// Comentario de prueba
     	try{
     		usuario=txtuser.getText().toString();
     		pass=txtpass.getText().toString();
