@@ -32,6 +32,7 @@ public class MainActivity extends Activity {
     		}
     	}catch(Exception ex){
     		Toast.makeText(this, "los campos no pueden estar vacios", Toast.LENGTH_SHORT);
+		//prueba Bladimir
     	}	
     }
     public void IrRegistro(View boton){
